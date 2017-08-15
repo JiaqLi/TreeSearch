@@ -1,0 +1,22 @@
+{
+    "0": {
+        "coniferous": false,
+        "opposite": false,
+        "text": "xylem",
+        "compound": false,
+        "leaves_otherwise": true,
+        "pinnate": false,
+        "palmate": false,
+        "title": "Pine Barrens (New Jersey)"
+    },
+    "1": {
+        "coniferous": true,
+        "opposite": false,
+        "text": "sapwood",
+        "compound": false,
+        "leaves_otherwise": true,
+        "pinnate": false,
+        "palmate": false,
+        "title": "Abies balsamea"
+    }
+  }

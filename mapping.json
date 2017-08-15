@@ -1,0 +1,38 @@
+{
+  "regional_tree_index": {
+    "properties": {
+        "title": {
+          "type": "string"
+        },
+        "nickname": {
+          "type": "string",
+          "analyzer": "nickname_analyzer"
+        },
+        "description": {
+          "type": "text",
+          "analyzer": "text_analyzer"
+        },
+
+        
+        "compound": {
+          "type": "boolean"
+        },
+        "coniferous": {
+          "type": "boolean"
+        },
+        "opposite": {
+          "type": "boolean"
+        },
+        "leaves_otherwise": {
+          "type": "boolean"
+        },
+        "pinnate": {
+          "type": "boolean"
+        },
+        "palmate": {
+          "type": "boolean"
+        }
+
+    }
+  }
+}

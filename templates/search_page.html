@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>TreeSearch</title>
+		<meta charset="utf-8" />
+	</head>
+	<body bgcolor="#d7edbb">
+
+		<!-- Header -->
+			<header id="header">
+				<h1>TreeSearch</h1>
+				<p>A search engine for all the trees in the world!</p>
+			</header>
+
+		<!-- Signup Form -->
+		<form action="results" name="search" method="get" id="treesearch">
+		    <dl>
+		        <dt>Keywords:
+		        <dd><input type="text" name="keywords">
+						 <fieldset id="compound">
+		            <p>Compound
+		            <input type="radio" name="compound" value="true"/>
+		            True
+		            <input type="radio" name="compound" value="false"/>
+		            False
+								<input type="radio" name="coniferous" value="unknown"/>
+								Unknown
+		        </fieldset>
+						<fieldset id="coniferous">
+		            <p>Coniferous
+		            <input type="radio" name="coniferous" value="true"/>
+		            True
+		            <input type="radio" name="coniferous" value="false"/>
+		            False
+								<input type="radio" name="coniferous" value="unknown"/>
+								Unknown
+		        </fieldset>
+						<fieldset id="opposite">
+							 <p>Opposite
+							 <input type="radio" name="opposite" value="true"/>
+							 True
+							 <input type="radio" name="opposite" value="false"/>
+							 False
+							 <input type="radio" name="opposite" value="unknown"/>
+							 Unknown
+					 </fieldset>
+					 <fieldset id="leaves">
+							<p>Leaves
+							<input type="radio" name="leaves" value="pinnate"/>
+							Pinnate
+							<input type="radio" name="compound" value="palmate"/>
+							Palmate
+							<input type="radio" name="compound" value="leaves_otherwise"/>
+							Otherwise
+					</fieldset>
+		      <dd><input type="submit" value="Search">
+		    </dl>
+		</form>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,14 @@
+[
+        "trunk, log, stem, bole",
+        "wood, heartwood",
+        "bark, outer-bark, outer bark, inner-bark, inner bark",
+        "phloem, inner-bark, inner bark",
+        "xylem, sapwood",
+        "crown, canopy",
+        "dendrology, tree identification, tree study",
+        "earlywood, early-wood, springwood, spring-wood",
+        "foliage, leaves",
+        "forb, herb",
+        "resin, sap",
+        "summerwood, latewood"
+      ]

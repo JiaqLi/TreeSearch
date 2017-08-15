@@ -1,0 +1,67 @@
+<!doctype html>
+
+<head>
+  <title>TreeSearch</title>
+  <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="static/css/main.css" />
+  <!--link rel="stylesheet" href="{{ url_for('static', filename='css/search_page.css') }}"-->
+</head>
+
+<body bgcolor="#d7edbb">
+  <header>Welcome to TreeSearch!</header>
+
+<p>Please enter below: <P>
+
+<form action="results" name="search" method="get" id="treesearch">
+    <dl>
+        <dt>(Keywords??):
+        <dd><input type="text" name="keywords">
+        <label for="compound">
+            <p>Compound
+            <input type="radio" name="compound" value="true"/>
+            True
+            <input type="radio" name="compound" value="false"/>
+            False
+        </label>
+        <label for="coniferous">
+            <p>Coniferous
+            <input type="radio" name="coniferous" value="true"/>
+            True
+            <input type="radio" name="coniferous" value="false"/>
+            False
+        </label>
+        <label for="opposite">
+            <p>Opposite
+            <input type="radio" name="opposite" value="true"/>
+            True
+            <input type="radio" name="opposite" value="false"/>
+            False
+        </label>
+        <label for="leaves">
+            <p>Leaves
+            <input type="radio" name="leaves" value="palmate"/>
+            Palmate
+            <input type="radio" name="leaves" value="pinnate"/>
+            Pinnate
+            <input type="radio" name="leaves" value="otherwise"/>
+            Otherwise???
+        </label>
+        <dd><input type="submit" value="Search">
+    </dl>
+</form>
+
+</body>
+
+<!-- Footer -->
+  <footer id="footer">
+    <ul class="icons">
+      <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+      <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+      <li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+      <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+    </ul>
+    <ul class="copyright">
+      <li>&copy; Untitled.</li><li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>
+    </ul>
+  </footer>

@@ -1,0 +1,15 @@
+<!doctype html>
+<head>
+  <style> .indented { padding-left: 50pt; padding-right: 50pt; } </style>
+</head>
+
+<body bgcolor="#d7edbb">
+  <h1>details of the tree:<br></h1>
+  <div class="article">
+    {% for key in article.keys() %}
+    {{key}}:<br/>
+      <div class="indented">{{article[key]}}<br/></div>
+    {% endfor %}
+  </div>
+  <button onclick="history.go(-1)">Return</button>
+</body>

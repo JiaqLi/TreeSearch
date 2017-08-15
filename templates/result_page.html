@@ -1,0 +1,15 @@
+<!doctype html>
+
+<body bgcolor="#d7edbb">
+
+<h1>Your search results:<br></h1>
+<ol class="results">
+    {% for res in results %}
+      <li><a href="{{url_for('article', tree=res)}}">{{ res }}</a></li>
+    {% endfor %}
+</ol>
+
+
+<a href="/">Back to Search</a>
+
+</body>
